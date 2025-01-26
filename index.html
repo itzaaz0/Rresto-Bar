@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resto</title> </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, hsl(0, 33%, 99%), #fdfafa);
+      color: #110101;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      background: #e6dede49;
+    }
+
+    header h1 {
+      color: #120a02;
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    nav {
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #9c1a1a;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .hero-section {
+      text-align: center;
+      padding: 50px 20px;
+      background: rgb(177, 49, 49);
+      border-radius: 15px;
+    }
+
+    .hero-section img {
+      width: 300px;
+      border-radius: 15px;
+    }
+
+    .hero-section h2 {
+      font-size: 2em;
+      margin: 20px 0;
+    }
+
+    .hero-section p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .hero-section button {
+      padding: 10px 20px;
+      font-size: 1em;
+      border: none;
+      background-color: #f0e2e2;
+      color: rgb(10, 1, 1);
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .menu-section {
+      margin-top: 50px;
+    }
+
+    .menu-section h3 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .menu-cards {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .menu-card {
+      flex: 1;
+      min-width: 250px;
+      background: #f7f2f2;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 5px 10px rgba(229, 215, 215, 0.762);
+    }
+
+    .menu-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .menu-card h4 {
+      margin: 10px 0;
+      font-size: 1.2em;
+    }
+
+    .menu-card p {
+      margin-bottom: 10px;
+      color: #080101;
+    }
+
+    .menu-card span {
+      font-weight: bold;
+      color: #ca1717;
+    }
+
+    .services-section {
+      margin-top: 50px;
+      padding: 20px;
+      background: rgb(232, 225, 225);
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    .services-section h3 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .services-icons {
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .service-icon {
+      flex: 1;
+      min-width: 100px;
+      text-align: center;
+    }
+
+    .service-icon i {
+      font-size: 2em;
+      color: #170d02;
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      padding: 20px;
+      background: #0b0202;
+      color: rgb(236, 231, 231);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Chow meh now!</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<div class="container">
+  <section class="hero-section">
+    <img src="panda.png" alt="Food Bowl">
+    <h2>Anime fans unite, for the food that's just right !</h2>
+    <p>"Anime meets appetite, East meets west, ramen and rice bowls pass the test. Delicious Food Is Waiting For You." </p>
+    <button>Food Menu</button>
+    <button>Book a Table</button>
+  </section>
+
+  <section class="menu-section" id="menu">
+    <h3>Top List</h3>
+    <div class="menu-cards">
+      <div class="menu-card">
+        <img src="ramen.png" alt="Ramen">
+        <h4>Ramen Reaper</h4>
+        <p> "Ramen in my bowl makes my heart whole"</p>
+        <span>900 indian rupees</span>
+      </div>
+      <div class="menu-card">
+        <img src="sushii.png" alt="Sushi">
+        <h4>Soulful Sushi</h4>
+        <p>"Sushi so fine, all the time"</p>
+        <span>600 indian rupees</span>
+      </div>
+      <div class="menu-card">
+        <img src="pawn.png" alt="Prawn">
+        <h4>Porkbliss Bites</h4>
+        <p>"Pawn off boring meals, and go for a porky deal"</p>
+        <span>700 indian rupees</span>
+      </div>
+      <div class="menu-card">
+        <img src="butterchicken.png" alt="Prawn">
+        <h4>Butter Chicken</h4>
+        <p>"Taste the fire, Butter chicken  is one's desire"</p>
+        <span>600 indian rupees</span>
+      </div>
+      <div class="menu-card">
+        <img src="Coconut Curry Salmon with Garlic Butter.png" alt="Prawn">
+        <h4>Salmon-Rice Bowl</h4>
+        <p>"Salmon and rice, perfect pair but tasty beyound compare"</p>
+        <span>1000 indian rupees</span>
+      </div>
+      <div class="menu-card">
+        <img src="Chili Bowl Soup.png" alt="Prawn">
+        <h4>Chilli Bowl Soup</h4>
+        <p>"Warm your soul, spice your role, chilli bowl is the perfect goal"</p>
+        <span>300 indian rupees</span>
+      </div>
+      <div class="menu-card">
+        <img src="meatballs and spagathi.png" alt="Prawn">
+        <h4>Spagetti meatballs</h4>
+        <p>"Meatballs and spagetti, with every bite, a delicious sight"</p>
+        <span>800 indian rupees</span>
+      </div>
+      <div class="menu-card">
+        <img src="Mediterranean Baked Feta Eggs.png" alt="Prawn">
+        <h4>Baked Feta Eggs</h4>
+        <p>"Cracked with love,baked with perfection, feta eggs is a obsession"</p>
+        <span>700 indian rupees</span>
+      </div>
+    <div class="menu-card">
+      <img src="Spicy Noodles.png" alt="Prawn">
+      <h4>Spicy Noodles</h4>
+      <p>"Fiery passion in noodles take your taste buds to brand new land "</p>
+      <span>400 indian rupees</span>
+    </div>
+  <div class="menu-card">
+    <img src="sushi.png" alt="Prawn">
+    <h4>Sushi </h4>
+    <p>"A smoky delight is a savory bite"</p>
+    <span>700 indian rupees</span>
+  </div>
+<div class="menu-card">
+  <img src="becan.png" alt="Prawn">
+  <h4>Bacan Pork Pasta</h4>
+  <p>"Satisty your cravings, bacan pork pasta is a pure delight"</p>
+  <span>700 indian rupees</span>
+</div>
+<div class="menu-card">
+  <img src="crosiiant.png" alt="Prawn">
+  <h4>Croissant Deal</h4>
+  <p>"Croissant and black coffee, a match made true, morning anew"</p>
+  <span>400 indian rupees</span>
+</div>
+<div class="menu-card">
+  <img src="pasta.png" alt="Prawn">
+  <h4>Pure Pasta</h4>
+  <p>"Fork in hand, a joyful spin, pasta's flovours, a taste within"</p>
+  <span>250 indian rupees</span>
+</div>
+<div class="menu-card">
+  <img src="pizza.png" alt="Prawn">
+  <h4>Pizza</h4>
+  <p>"Crust, sauce & cheese, a perfect blend, pizza your true friend"</p>
+  <span>200 indian rupees</span>
+</div>
+<div class="menu-card">
+  <img src="tacos.png" alt="Prawn">
+  <h4>Tacos</h4>
+  <p>"Folded with love, Tacos taste never gets old"</p>
+  <span>200 indian rupees</span>
+</div>
+    </div>
+  </section>
+
+  <section class="services-section">
+    <h3>Our Services</h3>
+    <div class="services-icons">
+      <div class="service-icon">
+        <i>🛒</i>
+        <p>Online Booking</p>
+      </div>
+      <div class="service-icon">
+        <i>🍽️</i>
+        <p>Catering Service</p>
+      </div>
+      <div class="service-icon">
+        <i>📦</i>
+        <p>Delivery Service</p>
+      </div>
+    </div>
+  </section>
+</div>
+<footer>
+  <p>&copy; Chow meh now!. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
